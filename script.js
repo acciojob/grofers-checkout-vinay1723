@@ -13,6 +13,7 @@ const getSum = () => {
 	},0);
 	totalSum.textContent = `total price ${sum}`;
 	totalSum.setAttribute("colspan",3);
+	totalSum.setAttribute('id','ans');
 	totalSum.style.cssText = 'text-align:right';
 	table.appendChild(totalSum);
     
